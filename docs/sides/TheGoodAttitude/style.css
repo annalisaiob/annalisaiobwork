@@ -91,8 +91,8 @@ I used to use Sass (still do sometimes), but now that it's supported natively, l
 
   /** base colors **/
   --colWhite: rgba(255,255,255);
-  --colRed: #ede8e0;
-  --colRed2: #ede8e0;
+  --colRed: #b929ee;
+  --colRed2: #b929ee;
   --colBlue: #785627;
   --colBlue2: #ede8e0;
   --colBlue3: rgba(237,232,224,0.2);
