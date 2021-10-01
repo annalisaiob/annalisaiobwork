@@ -93,9 +93,9 @@ I used to use Sass (still do sometimes), but now that it's supported natively, l
   --colWhite: rgba(255,255,255);
   --colRed: #b929ee;
   --colRed2: #b929ee;
-  --colBlue: #785627;
+  --colBlue: #b929ee;
   --colBlue2: #ede8e0;
-  --colBlue3: rgba(237,232,224,0.2);
+  --colBlue3: rgba(237,232,224);
   --colBlue4: #785627;
   --colGreen: rgba(190,154,98,0.08);
   --colGreen2: rgba(190,154,98,0.21);
