@@ -108,7 +108,7 @@ I used to use Sass (still do sometimes), but now that it's supported natively, l
   --colTextInverse: var(--colWhite);
 
   /** font stacks **/
-  --fontMerri: 'Oswald', sans-serif;
+  --fontMerri: 'Fjalla One', sans-serif;
   --fontOpen: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 
   /** font sizes **/
