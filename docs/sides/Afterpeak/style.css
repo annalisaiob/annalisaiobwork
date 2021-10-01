@@ -90,15 +90,15 @@ I used to use Sass (still do sometimes), but now that it's supported natively, l
 :root {
 
   /** base colors **/
-  --colWhite: rgba(255,255,255);
+  --colWhite: rgba(0,0,0);
   --colRed: #b929ee;
   --colRed2: #b929ee;
-  --colBlue: #b929ee;
-  --colBlue2: #ede8e0;
-  --colBlue3: rgba(237,232,224);
-  --colBlue4: #785627;
-  --colGreen: rgba(190,154,98,0.08);
-  --colGreen2: rgba(190,154,98,0.21);
+  --colBlue: #83eeff;
+  --colBlue2: #83eeff;
+  --colBlue3: rgba(131,238,255,0.75);
+  --colBlue4: #83eeff;
+  --colGreen: rgba(131,238,255,0.08);
+  --colGreen2: rgba(131,238,255,0.21);
 
 
 
@@ -108,7 +108,7 @@ I used to use Sass (still do sometimes), but now that it's supported natively, l
   --colTextInverse: var(--colWhite);
 
   /** font stacks **/
-  --fontMerri: 'Fjalla One', sans-serif;
+  --fontMerri:'Oswald', sans-serif;
   --fontOpen: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 
   /** font sizes **/
@@ -159,6 +159,7 @@ h1, .h1 {
     margin: 2.75rem 0 0.5rem;
     font-family: var(--fontMerri);
     font-weight: var(--fontWeight-Bold);
+	color: white;
 }
 
 h2, .h2 {
@@ -167,6 +168,7 @@ h2, .h2 {
     margin: 2.75rem 0 1.05rem;
     font-family: var(--fontMerri);
     font-weight: var(--fontWeight-Bold);
+	color: white;
 }
 
 h3, .h3 {
@@ -175,6 +177,7 @@ h3, .h3 {
     margin: 2.75rem 0 1.05rem;
     font-family: var(--fontMerri);
     font-weight: var(--fontWeight-Bold);
+	color: white,
 }
 
 strong, .strong {
@@ -183,6 +186,7 @@ strong, .strong {
 
 p {
    margin: 0 0 1.15rem;
+   color: rgba(255,255,255,0.65);
 }
 
 small, .small {
@@ -347,7 +351,7 @@ body {
 }
 
 .subtitle {
-  color: var(--colText-02);
+  color: rgba(255,255,255,0.8);
 }
 
 .tldr {
