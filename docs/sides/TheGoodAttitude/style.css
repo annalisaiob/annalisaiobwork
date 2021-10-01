@@ -91,11 +91,11 @@ I used to use Sass (still do sometimes), but now that it's supported natively, l
 
   /** base colors **/
   --colWhite: rgba(255,255,255);
-  --colRed: #f59b1d;
-  --colRed2: #f59b1d;
+  --colRed: #ede8e0;
+  --colRed2: #ede8e0;
   --colBlue: #785627;
-  --colBlue2: #0088CC;
-  --colBlue3: rgba(120,86,39,0.2);
+  --colBlue2: #ede8e0;
+  --colBlue3: rgba(237,232,224,0.2);
   --colBlue4: #785627;
   --colGreen: rgba(190,154,98,0.08);
   --colGreen2: rgba(190,154,98,0.21);
