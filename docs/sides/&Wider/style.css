@@ -91,14 +91,14 @@ I used to use Sass (still do sometimes), but now that it's supported natively, l
 
   /** base colors **/
   --colWhite: rgba(255,255,255);
-  --colRed: #f59b1d;
-  --colRed2: #f59b1d;
-  --colBlue: #785627;
-  --colBlue2: #0088CC;
-  --colBlue3: rgba(120,86,39,0.2);
-  --colBlue4: #785627;
-  --colGreen: rgba(190,154,98,0.08);
-  --colGreen2: rgba(190,154,98,0.21);
+  --colRed2: #000000;
+  --colRed: #000000;
+  --colBlue: #ec3f65;
+  --colBlue2: #fad843;
+  --colBlue3: #ffffff;
+  --colBlue4: #000000;
+  --colGreen: rgba(150,150,150,0.08);
+  --colGreen2: rgba(150,150,150,0.21);
 
 
 
@@ -108,8 +108,8 @@ I used to use Sass (still do sometimes), but now that it's supported natively, l
   --colTextInverse: var(--colWhite);
 
   /** font stacks **/
-  --fontMerri: 'Oswald', sans-serif;
-  --fontOpen: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --fontMerri: 'Rubik', sans-serif;
+  --fontOpen: 'Rubik', sans-serif;
 
   /** font sizes **/
   --fontBase: 18px;
@@ -237,7 +237,7 @@ Things like buttons, forms, etc.
   font-size: var(--fontSmall);
   font-weight: var(--fontWeight-Bold);
   text-decoration: none;
-  text-transform: none;
+  text-transform: capitalize;
   display: inline-block;
   position: relative;
   min-width: 64px;
@@ -249,7 +249,6 @@ Things like buttons, forms, etc.
   -webkit-appearance: none;
   overflow: hidden;
   vertical-align: middle;
-  border-radius: 24px;
   cursor: pointer;
   letter-spacing: 0.4px;
   transition: var(--motionSpeed-01) var(--motionStandard);
@@ -266,6 +265,7 @@ Things like buttons, forms, etc.
 .btn:active,
 .btn-site:active {
   text-shadow: none;
+  text-transform: capitalize;
 }
 
 .btn-site,
@@ -278,6 +278,7 @@ Things like buttons, forms, etc.
   color: var(--colRed);
   background-color: var(--colWhite);
   border: 2px solid var(--colRed);
+  text-transform: capitalize;
 }
 
 .btn-site:hover {
@@ -350,6 +351,14 @@ body {
   color: var(--colText-02);
 }
 
+.subtitle img {
+	display: inline-block;
+    width: auto;
+    height: 20px;
+    position: relative;
+    top: 3px;
+}
+
 .tldr {
   margin: 48px 24px;
   color: var(--col-01);
@@ -409,6 +418,38 @@ body {
   margin: 0;
 }
 
+.alertface {
+	display: flex;
+	background: transparent;
+	border: 0;
+}
+
+.alertface p {
+	font-size: 18px;
+	margin: 4% 0 0 24px;
+}
+@media screen and (max-width: 600px) {
+    .alertface {
+        display: block;
+    }
+	.alertface p {
+	font-size: 12px;
+	margin:4% 0 0 0;
+	text-align: center;
+	}
+	.alertface img {
+		float: none;
+	}
+	p {
+	font-size: 16px;	
+	}
+	.tldr {
+	font-size: 16px;	
+	}
+	.expo {
+	font-size: 16px;	
+	}
+}
 
 
 
@@ -448,3 +489,10 @@ body {
   display: none;
 }
 
+#hero h1 span img {
+		display: inline-block;
+		width: auto;
+		height: 40px;
+		position: relative;
+		top: 3px;
+}

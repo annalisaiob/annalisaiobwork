@@ -11,7 +11,7 @@ $( document ).ready(function() {
 
 	$(".btn-site").click(function(){
 		$(this).text(function(i, text){
-          return text === "Keep it short" ? "Tell me more" : "Keep it short";
+          return text === "KEEP IT SHORT" ? "TELL ME MORE" : "KEEP IT SHORT";
       	});
   		$("body").toggleClass("hide-expo");
 
